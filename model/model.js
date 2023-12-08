@@ -11,7 +11,8 @@ const dataSchema = new mongoose.Schema({
         type: Number
     }
 })
-
+//Mongoose library, making it available for use in the code.
+//A schema in Mongoose defines the structure of the documents (data objects) that will be stored in a MongoDB collection.
 module.exports = mongoose.model('Data', dataSchema)
 
 
