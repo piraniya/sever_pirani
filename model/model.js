@@ -1,13 +1,6 @@
 const mongoose = require('mongoose');
 //This model can be used to perform CRUD (Create, Read, Update, Delete) operations on a MongoDB collection with the specified data structure.
 
-
-
-
-
-
-
-
 const dataSchema = new mongoose.Schema({
     name: {
         required: true,
